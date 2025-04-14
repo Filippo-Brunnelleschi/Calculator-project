@@ -6,7 +6,9 @@ body {
 
 
 .container {
-    background-color: gainsboro;
+    background-color: rgb(236, 236, 236);
+    border: 3px solid rgb(105, 98, 98);
+    border-radius: 20px;;
     
     
     display: flex;
@@ -20,7 +22,7 @@ body {
 }
 
 .display {
-    background-color: green;
+    background-color: rgba(176, 177, 179, 0.527);
 
 
     
@@ -40,10 +42,28 @@ body {
 }
 
 button {
-    font-size: 50px;
+    font-size: 30px;
+    font-family: monospace;
+    color: white;
+    background-color: rgb(185, 184, 184);
+
+
+
     width: 50px;
+    height:50px;
 }
 
 h2 {
-    font-size: 30px;;
+    color:white;
+    font-family:monospace;
+
+
+
+    font-size: 30px;
+    padding-right: 20px;
+    max-width: 250px;
+
+    word-wrap: break-word;
+    overflow-wrap: break-word; 
+    white-space: normal;
 }
